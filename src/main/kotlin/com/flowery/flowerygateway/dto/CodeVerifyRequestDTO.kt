@@ -1,6 +1,6 @@
 package com.flowery.flowerygateway.dto
 
-data class EmailRequestDTO(
+data class CodeVerifyRequestDTO (
     val userEmail: String,
-    val userName: String
+    val userCode: String
 )
